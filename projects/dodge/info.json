@@ -1,0 +1,6 @@
+{
+  "name": "Dodge",
+  "description": "Tis is my second game that uses the PSP camera, the first one with an actual gameplay. In this game you are in charge of a spacecraft and your mission is to avoid as many asteroids as you can. The original part of this game is that to move your spacecraft you have to aim a red object with the camera and the ship will follow it.",
+  "tags": ["PSP", "C++"],
+  "repo": ""
+}

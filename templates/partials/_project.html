@@ -1,0 +1,41 @@
+<div class="pcard" id="c_{{project.id}}">
+  <div class="pcard-main waves-effect waves-block waves-light" id="p_{{project.id}}">
+    <img src="{{project.path}}/image.jpg">
+    <div class="pcard-title">
+      <p>
+        {{ project.name }}
+      </p>
+      {% if project.repo %}
+        <a href="{{project.repo}}">
+          <img src="imgs/github-mark.svg"/>
+        </a>
+      {% endif %}
+    </div>
+  <div class="pcard-tags">
+    {% for tag in project.tags %}
+      <span class="pcard-tag tag-{{tag|replace('++','PP')}}">{{tag}}</span>
+    {% endfor %}
+  </div>
+
+  </div>
+
+  <div class="pcard-description white" id="d_{{project.id}}">
+    <div class="pcard-description-title">
+        {{ project.name }}
+    </div>
+    <div class="pcard-description-content">
+      {{ project.description }}
+    </div>
+  </div>
+</div>
+
+
+
+<script lang="js">
+  const desc_{{ project.id }} = document.getElementById('d_{{project.id}}');
+  const card_{{ project.id }} = document.getElementById('c_{{project.id}}');
+  function click_{{ project.id }} () {
+    desc_{{ project.id }}.classList.toggle("pcard-description-show");
+  };
+  card_{{ project.id }}.onclick = click_{{ project.id }};
+</script>

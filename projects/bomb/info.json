@@ -1,0 +1,6 @@
+{
+  "name": "Bomb Defuser",
+  "description": "Cooperative two player game with asymetric gameplay. The first player is a defuser in front of the bomb and needs to solve a series of puzzles. At the same time the second player has access to the bomb manual that explains how to handle all the possible situations. The whole point of the game is for them to discuss and find a way to safely defuse the bomb before the end of the timer and without making too many mistakes. Heavilly inspired from Keep Talking And Nobody Explodes.",
+  "tags": ["TS", "WEB"],
+  "repo": "https://github.com/guyver2/dabomb"
+}

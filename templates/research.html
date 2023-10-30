@@ -1,0 +1,202 @@
+{% extends '_base.html' %}
+{% block title %}Research{% endblock %}
+{% block body %}
+
+{% include 'partials/_title.html' %}
+
+<div class="rgrid">
+  <!-- Thesis -->
+  <div class="rcard">
+    <div>
+      <div class="rimg">
+        <a href="assets/these.pdf"><img width="100px" src="imgs/thesis.jpg"></a>
+      </div>
+      <div class="rdescription">
+        <p class="rtitle">PhD Thesis: 4D modeling from multiple cameras.</p>
+        Nowadays mutli-camera setups allow the acquisition of both color image streams and 3D models streams. Thus permitting
+        the study of complex scenes. These scenes can be composed of any number of non-rigid objects moving freely. One of the
+        main limitations of such data is its lack of temporal coherence between two consecutive observations. The work presented
+        in this thesis consider this issue and propose novel methods to recover this temporal coherence. First we present a new
+        approach that computes at each frame a dense motion field over the surface of the scene (i.e. Scene Flow), gathering
+        both photometric and geometric information. We then extend this approach to hybrid multi-camera setups composed of color
+        and depth sensor (such as the kinect sensor). Second, we introduce "Progressive Shape Models", a new method that allows
+        to gather topology information over a complete sequence of 3D models and incrementally build a complete and coherent
+        surface template.
+        <br/><br/>In French.
+      </div>
+    </div>
+  </div>
+
+  <!-- SHAPE MODELS -->
+  <div class="rcard">
+    <div>
+      <div class="rimg">
+        <img src="imgs/progressive_shape_models.jpg">
+      </div>
+      <div class="rdescription">
+        <p class="rtitle">Learning Shape Topology</p>
+        In this work we address the problem of recovering
+        both the topology and the geometry of a deformable shape
+        using temporal mesh sequences. The interest arises in
+        multi-camera applications when unknown natural dynamic
+        scenes are captured. While several approaches allow recovery 
+        of shape models from static scenes, few consider
+        dynamic scenes with evolving topology and without prior
+        knowledge. In this nonetheless generic situation, a single
+        time observation is not necessarily sufficient to infer the
+        correct topology of the observed shape and evidences must
+        be accumulated over time in order to learn the topology and
+        to enable temporally consistent modelling. This appears
+        to be a new problem for which no formal solution exists.
+        We propose a principled approach based on the assumption 
+        that the observed objects have a fixed topology. Under 
+        this assumption, we can progressively learn the topology 
+        meanwhile capturing the deformation of the dynamic
+        scene. The approach has been successfully experimented
+        on several standard 4D datasets.
+      </div>
+    </div>
+    <a class="more-toggle" onclick="document.getElementById('more_shape').classList.toggle('hidden');">MORE</a>
+    <div class="more hidden" id="more_shape">
+      <p class="rtitle">Other materials</p>
+      <table>
+        <tr>
+          <td>
+            <a href="https://inria.hal.science/hal-00677506v1/file/poster.pdf">
+              <img width="50%" src="imgs/shape/poster.jpg">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>CVPR Poster</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- SURFACE FLOW -->
+  <div class="rcard">
+    <div>
+      <div class="rimg">
+        <img src="imgs/flow.jpg">
+      </div>
+      <div class="rdescription">
+        <p class="rtitle">Scene Flow</p>
+        In this work we study how to incorporate, in an efficient way, various constraints when estimating dense motion
+        information over 3D surfaces from temporal variations of the intensity function in several images. Our primary
+        motivation is to provide robust motion cues that can be directly used by an application, e.g. interactive
+        applications, or that can be fed into more advanced tasks such as surface tracking or segmentation. The approach is
+        however not limited to a specific scenario and applies to any application that can benefit from low level motion
+        information. We explore the combination of heterogeneous photometric and geometric cues in an unified framework. We
+        fuse 2D and 3D, sparse and dense information to constrain the estimation of the instantaneous 3D scene flow on a
+        surface. This project uses the output of any multi-camera system, such as <a
+          href="http://grimage.inrialpes.fr">Grimage</a>, which gives for each time step a set of calibrated images. Our
+        framework merges constraints coming from 2D normal flow, sparse 2D features matching in the images, sparse 3D
+        features matching on the surfaces and a regularization term to provide an accurate and smooth motion field over the
+        surface.
+      </div>
+    </div>
+    <a class="more-toggle" onclick="document.getElementById('more_flow').classList.toggle('hidden');">MORE</a>
+    <div class="more hidden" id="more_flow">
+      <p class="rtitle">Other materials</p>
+      <table width="100%">
+        <tr>
+          <td><a href="http://hal.inria.fr/docs/00/61/63/53/ANNEX/bmvc11_poster.pdf"><img width="50%"
+                src="imgs/flow/poster.jpg"></a></td>
+          <td><a href="http://hal.inria.fr/docs/00/61/63/53/ANNEX/extended_abstract.pdf"><img width="50%"
+                src="imgs/flow/abstract.jpg"></a></td>
+          <td><a href="http://hal.inria.fr/docs/00/63/14/76/ANNEX/oral.pdf"><img width="50%"
+                src="imgs/flow/slide.jpg"></a></td>
+        </tr>
+        <tr>
+          <td>BMVC Poster</td>
+          <td>BMVC Abstract</td>
+          <td>VMV Slides</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- PLANE DETECTION -->
+  <div class="rcard">
+    <div>
+      <div class="rimg">
+        <a href="assets/master.pdf"><img src="imgs/master.jpg"></a>
+      </div>
+      <div class="rdescription">
+        <p class="rtitle">Master thesis - Plane detection in images</p>
+        Binocular stereovision is a computer vision technique that uses
+        two images of the same scene taken by sensors placed at different positions. It is used in many ways to recover the
+        depth of a scene. After matching elements (pixels, regions, etc.) between the two images, it is possible to recover
+        certain geometric properties of the scene. Detecting the planes of a scene from image pairs is a problem that has been
+        extensively addressed. Several methods have been proposed, each trying to use a different approach (RANSAC, optical
+        flow, manual pre-segmentation, etc.). Each approach has its advantages and disadvantages depending on the type of scene.
+        <br/><br/>
+        This Master's thesis is part of the TSIGANE 1 project, which aims, on one hand, to enable onboard vision-based localization
+        within a 3D geographic information system (GIS) and, on the other hand, to enhance the GIS with acquired images.
+        Detecting planes would allow orientation in the world based on GIS information by detecting building walls, for example.
+        A preliminary position would be provided by a GPS, and then matching the model with the scene reconstructed by the
+        sensors could offer greater precision while incorporating textures into the GIS.
+        <br/><br/>
+        This work first provides a state-of-the-art overview of plane detection methods. Then, we will discuss two
+        approaches for the simultaneous estimation of inter-image homographies. The first method is based on the use of
+        generalized principal component analysis, while the second assumes urban scenes and uses the boundaries between planes
+        to segment the correspondences between images. The work includes a detailed study of the first method and its adaptation
+        to another type of data, line correspondences. It also involves the development of the second method, which approaches
+        the problem in a novel way. We will explain how each approach works and present the results obtained along with their
+        evaluation.
+      </div>
+    </div>
+  </div>
+  
+  <div class="rcard">
+    <div class="rdescription">
+      <p class="rtitle">Teaching</p>
+      <ul>
+        <li><u>Spring semester 2016</u> <b>- C Project</b>, Under-Graduate practical course at <a href=http://ensimag.grenoble-inp.fr />INPG - Ensimag</a>.
+        <li><u>Spring semester 2012</u> <b>- Algorithms and C programming</b>, Under-Graduate course at <a href=http://phelma.grenoble-inp.fr/ />INPG - Phelma</a>.
+        <li><u>Spring semester 2012</u> <b>- Computer Graphics</b>, Post-Graduate practical course at <a href=http://www.ujf-grenoble.fr />Universit&eacute; Joseph Fourier</a>.
+        <li><u>Spring semester 2011</u> <b>- Algorithms and data structures</b>, Under-Graduate practical course at <a href=http://ensimag.grenoble-inp.fr />INPG - Ensimag</a>.
+        <li><u>Spring semester 2011</u> <b>- Computer Graphics</b>, Post-Graduate practical course at <a href=http://www.ujf-grenoble.fr />Universit&eacute; Joseph Fourier</a>.
+        <li><u>Spring semester 2010</u> <b>- Computer Graphics</b>, Post-Graduate practical course at <a href=http://www.ujf-grenoble.fr />Universit&eacute; Joseph Fourier</a>.
+      </ul>
+    </div>
+  </div>
+
+  <div class="rcard">
+    <div class="publications">
+        <p class="rtitle">Publications</p>
+        {% for paper in papers %}
+          {% include 'partials/_paper.html' %}
+        {% endfor %}
+        <!-- <div class="paper">
+          <div class="paper-img"><img src="imgs/papers/shape.png"/>
+          </div><div class="paper-pdf"><a href="https://inria.hal.science/hal-00677506v1/file/cvpr.pdf"><img src="imgs/pdf.svg" /></a></div>
+          <p class="paper-title">Progressive Shape Models</p>
+          <p class="authors">Antoine Letouzey, Edmond Boyer</p>
+          <p class="conf">CVPR - Computer Vision and Patern Recognition - 2012</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+
+
+{% block footer_js %}
+<script lang="js">
+
+    <!-- function toggle_flow() {
+      {% for project in projects %}
+        const card_{{ project.id }} = document.getElementById('c_{{project.id}}');
+        const p_{{ project.id }} = document.getElementById('p_{{project.id}}');
+        card_{{ project.id }}.style.width = "";
+        p_{{ project.id }}.style.width = "";
+      {% endfor %}
+    } -->
+
+
+</script>
+{% endblock %}

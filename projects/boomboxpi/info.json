@@ -1,0 +1,6 @@
+{
+  "name": "BoomBox Pi",
+  "description": "A Music Box I created for my daughter. It is based on a Raspberry Pi Zero with two speakers and some arcade buttons. It can receive commands from the box itself, through a web UI or with RFID cards. Supports playlists, webradios, favorites, volume control. It is also todler-proof with a mode that locks all functionalities except the pretty lights.",
+  "tags": ["PYTHON", "WEB"],
+  "repo": "https://github.com/guyver2/BoomBoxPi"
+}

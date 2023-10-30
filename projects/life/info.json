@@ -1,0 +1,6 @@
+{
+  "name": "Conway's game of life",
+  "description": "Simple implementation of the famous game of life.",
+  "tags": ["PC", "C++"],
+  "repo": ""
+}

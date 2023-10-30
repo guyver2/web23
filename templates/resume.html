@@ -1,0 +1,262 @@
+{% extends '_base.html' %}
+{% block title %}CV{% endblock %}
+{% block body %}
+
+{% include 'partials/_title.html' %}
+
+<div class="rgrid">
+
+  <div class="jsection">
+    Contact
+  </div>
+  <div class="rcard">
+    <div class="jdescription">
+      <p class="jtitle">Contact Information</p>
+      <div class="contact">
+        <i class="small material-icons">email</i>
+        <a href="mailto:antoine.letouzey@gmail.com">antoine.letouzey@gmail.com</a>
+      </div>
+      <div class="contact">
+        <img src="imgs/github-mark.svg" />
+        <a href="https://github.com/guyver2">My GitHub page</a>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="jsection">
+    Education
+  </div>
+  <!-- Education -->
+  <div class="rcard">
+    <div class="jdescription">
+      <p class="jtitle"><span class="dot"></span> PhD in Computer Vision</p>
+      <p>2012 INRIA Grenoble, France. Thesis topic: 4D modeling from multiple cameras.</p>
+      <p class="jtitle"><span class="dot"></span> MSc in Computer Vision and Image Processing</p>
+      <p>2008 Toulouse University, France. Thesis topic: Plane detection in stereo images.</p>
+      <p class="jtitle"><span class="dot"></span> BSc in Computer Science</p>
+      <p>2006 Angers University, France</p>
+    </div>
+  </div>
+
+
+  <div class="jsection">
+    Experience
+  </div>
+  <!-- RetinAI -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://retinai.com"><img src="imgs/jobs/retinai.jpg"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">Senior Software Engineer</p>
+      <div class="place-and-time">
+        <p class="company">RetinAI</p>
+        <p class="where">Bern, Switzerland</p>
+        <p class="time">2019 - 2023</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">In charge of a team of 3 developers for software integration and technical support.</li>
+          <li id="li-job">Development of tools to facilitate the integration of our products in clinics and hospitals. (PACS, ecommerce platform).</li>
+          <li id="li-job">Project leader for a collaboration with Heidelberg Engineering. Development of the first working commercial app integrated in Heidelberg Appway (TS, Python, DICOM, SQL, docker services).</li>
+          <li id="li-job">Responsible for the technical part of the submission for certifications (MDD, MDR, FDA). Participated in company and projects audits.</li>
+          <li id="li-job">Manage the monthly release process (Asana, Gitlab, regulatory documentation, deployment to the cloud).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAScination -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://cascination.com"><img src="imgs/jobs/cascination.jpg"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">Senior Software Engineer</p>
+      <div class="place-and-time">
+        <p class="company">CAScination</p>
+        <p class="where">Bern, Switzerland</p>
+        <p class="time">2017 - 2019</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">Lead developer for the OTOPLAN project, a planning software for robotic surgery (C++, Qt, ITK, Boost, OpenMP).</li>
+          <li id="li-job">Define the software architecture and select appropriate libraries and tools.</li>
+          <li id="li-job">Promote Agile development methodology, maintain backlog and lead sprint meetings for a team of 3 software engineers (Jira).</li>
+          <li id="li-job">Build image processing algorithms for CT and CBCT scan of the inner ear.</li>
+          <li id="li-job">In charge of the transition from SVN to GIT of the codebase.</li>
+          <li id="li-job">Software certification for medical device (MDD, FDA, ISO 62304). Unit tests, V&V, requirements, risk analysis.</li>
+          <li id="li-job">Clinical trials with various hospitals and first robotic access to the inner ear.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- UJF TIMC -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://www.timc.fr/en"><img src="imgs/jobs/timc.png"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">Post-Doctoral Researcher</p>
+      <div class="place-and-time">
+        <p class="company">Grenoble University TIMC - IMAG</p>
+        <p class="where">Grenoble, France</p>
+        <p class="time">2015 - 2017</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">Project leader.</li>
+          <li id="li-job">Research on extended view for laparoscopic surgery from multiple cameras.</li>
+          <li id="li-job">Real-time image processing, video stitching, camera calibration and pose estimation, 3D
+            reconstruction (C++, python, OpenCV, ITK, Qt, OpenGL).</li>
+          <li id="li-job">SLAM for intra-operative localization.</li>
+          <li id="li-job">Surgical tool classification from images.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- EPFL -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://www.epfl.ch/labs/cvlab/"><img src="imgs/jobs/epfl.png"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">R&D Engineer</p>
+      <div class="place-and-time">
+        <p class="company">EFPL CVLab</p>
+        <p class="where">Lausanne, Switzerland</p>
+        <p class="time">2013 - 2015</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">3D reconstruction of nano-scaled curvilinear structures from a set of 2D images acquired through tomography in transmission electron microscopy.</li>
+          <li id="li-job">Semi-Automated annotating and editing tool for 3D reconstructions of neurons in image stack (Python, Qt, OpenCV, OpenGL).</li>
+          <li id="li-job">Interdisciplinary experience between CVLab and LSME laboratories.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- WETA -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://www.wetafx.co.nz/"><img src="imgs/jobs/weta.jpg"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">R&D Engineer</p>
+      <div class="place-and-time">
+        <p class="company">Weta FX</p>
+        <p class="where">Wellington, New-Zealand</p>
+        <p class="time">2012 - 2013</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">Software development for real-time motion capture and motion editing pipeline for animation in films (C++, Python, Qt, OpenGL, Eigen).</li>
+          <li id="li-job">Camera calibration, tracking of multiple actors, real-time rendering in Maya and MotionBuilder.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Teaching -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://www.univ-grenoble-alpes.fr/"><img src="imgs/jobs/uga.png"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">Teaching assistant</p>
+      <div class="place-and-time">
+        <p class="company">Grenoble University</p>
+        <p class="where">Grenoble, France</p>
+        <p class="time">2010 - 2016</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">Spring semester 2016 - C Project, Under-Graduate practical course at INPG - Ensimag</li>
+          <li id="li-job">Spring semester 2012 - Algorithms and C programming, Under-Graduate course at INPG - Phelma</li>
+          <li id="li-job">Spring semester 2012 - Computer Graphics, Post-Graduate practical course at Université Joseph Fourier</li>
+          <li id="li-job">Spring semester 2011 - Algorithms and data structures, Under-Graduate practical course at INPG - Ensimag</li>
+          <li id="li-job">Spring semester 2011 - Computer Graphics, Post-Graduate practical course at Université Joseph Fourier</li>
+          <li id="li-job">Spring semester 2010 - Computer Graphics, Post-Graduate practical course at Université Joseph Fourier</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- IRIT -->
+  <div class="rcard">
+    <div class="jimg">
+      <a href="https://www.irit.fr/en/home/"><img src="imgs/jobs/irit.png"></a>
+    </div>
+    <div class="jdescription">
+      <p class="jtitle">Research Assistant</p>
+      <div class="place-and-time">
+        <p class="company">Grenoble University</p>
+        <p class="where">Toulouse, France</p>
+        <p class="time">2007</p>
+      </div>
+      <div class="job-items">
+        <ul>
+          <li id="li-job">Processor architecture and compilation for embedded systems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="jsection">
+    Technical Skills and Interests
+  </div>
+  <!-- skills -->
+  <div class="rcard">
+    <div class="w100">
+      <div class="job-items">
+        <ul>
+          <li id="li-job"><b>Languages:</b> C++ (Boost, Qt, ITK, OpenCV, OpenGL, Eigen), Python (numpy), C, JS/TS, Lua, OCaml</li>
+          <li id="li-job"><b>Tools and CI/CD:</b> Git, Gitlab, Github, Jira, Bitbucket, CMake, Gitlab Pipelines, Jenkins</li>
+          <li id="li-job"><b>Services:</b> docker, docker-compose, bash</li>
+          <li id="li-job"><b>Computer Vision:</b> Camera calibration, 3D reconstruction, image classification, rendering, SLAM, numerical optimization methods</li>
+          <li id="li-job"><b>Image Processing:</b> Image stitching, objects detection and segmentation, color correction, image filtering, medical images, multi-modalities</li>
+          <li id="li-job"><b>Video Games:</b> I created a dozen of video games for multiple platforms (Sony PSP, PC, ...)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="jsection">
+    Film Credits
+  </div>
+  <!-- Film Credits -->
+  <div class="rcard">
+    <div class="w100">
+      <div class="job-items">
+        <ul>
+          <li id="li-job"><b>The Hobbit: The Desolation of Smaug</b> Research and Development</li>
+          <li id="li-job"><b>Dawn of the Planet of the Apes</b> Research and Development</li>
+          <li id="li-job"><b>Man of Steel</b> Research and Development</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="jsection">
+    Languages
+  </div>
+  <!-- Languages -->
+  <div class="rcard">
+    <div class="w100">
+      <div class="job-items">
+        <ul>
+          <li id="li-job"><b>French</b> Native speaker</li>
+          <li id="li-job"><b>English</b> Fluent</li>
+          <li id="li-job"><b>German</b> Work in progress</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+{% endblock %}

@@ -1,0 +1,6 @@
+{
+  "name": "Shortify",
+  "description": "If you are sick of some songs, this application allows you to find seamless shortcuts to make them as short as possible. It analyzes the sound pattern to find similarities and then reconstruct a sound file that is much shorter than the original while still giving the impression that the song played fully.",
+  "tags": ["Python"],
+  "repo": "https://github.com/guyver2/shortify"
+}

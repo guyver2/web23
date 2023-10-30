@@ -1,0 +1,6 @@
+{
+  "name": "Breakout",
+  "description": "This is the first game I ever made myself. It's a really simple but complete Breakout-like with 4 different levels, high-score system and an annoying music :)",
+  "tags": ["PC", "C"],
+  "repo": ""
+}

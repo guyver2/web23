@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Progressive Shape Models",
+    "authors": ["Antoine Letouzey", "Edmond Boyer"],
+    "conf": "CVPR - Computer Vision and Patern Recognition",
+    "year": 2012,
+    "pdf": "https://inria.hal.science/hal-00677506v1/file/cvpr.pdf",
+    "img": "imgs/papers/shape.png"
+  },
+
+  {
+    "title": "Enhanced Laparoscopic Vision Improves Detection of Intraoperative Adverse Events During Laparoscopy",
+    "authors": [
+      "Bertrand Trilling",
+      "Sinara Vijayan",
+      "Cecile Goupil",
+      "Elio Kedisseh",
+      "Antoine Letouzey",
+      "P.A. Barraud",
+      "J.L. Faucheron",
+      "Gaëlle Fiard",
+      "Sandrine Voros"
+    ],
+    "conf": "Innovation and Research in BioMedical engineering",
+    "year": 2020,
+    "pdf": "https://hal.univ-grenoble-alpes.fr/hal-03054368/file/20-10-12_ELVIS%20to%20improve%20laparoscopy_final_forHAL.pdf",
+    "img": "imgs/papers/laparo.png"
+  },
+  {
+    "title": "Flot de scène",
+    "authors": ["Antoine Letouzey", "Benjamin Petit", "Edmond Boyer"],
+    "conf": "Traitement du Signal,",
+    "year": 2012,
+    "pdf": "https://inria.hal.science/hal-00746460/file/TS.pdf",
+    "img": "imgs/papers/TS.png"
+  },
+  {
+    "title": "Modèles progressifs de forme",
+    "authors": ["Antoine Letouzey", "Edmond Boyer"],
+    "conf": "CORESA - COmpression et REprésentation des Signaux Audiovisuels ",
+    "year": 2012,
+    "pdf": "https://inria.hal.science/hal-00683549/file/coresa_PSM.pdf",
+    "img": "imgs/papers/mpf.png"
+  },
+  {
+    "title": "Flot de scène à partir d'images couleur et de cartes de profondeur",
+    "authors": ["Antoine Letouzey", "Benjamin Petit", "Edmond Boyer"],
+    "conf": "RFIA - Reconnaissance des Formes et Intelligence Artificielle",
+    "year": 2012,
+    "pdf": "https://hal.science/hal-00656484/file/rfia2012_submission_4.pdf",
+    "img": "imgs/papers/flot2.png"
+  },
+  {
+    "title": "Surface Flow from Visual Cues",
+    "authors": [
+      "Antoine Letouzey",
+      "Benjamin Petit",
+      "Edmond Boyer",
+      "J.S. Franco"
+    ],
+    "conf": "VMV - Vision, Modeling and Visualization Workshop",
+    "year": 2011,
+    "pdf": "https://inria.hal.science/inria-00631476/file/surface_flow_from_visual_cues.pdf",
+    "img": "imgs/papers/flow.png"
+  },
+  {
+    "title": "Scene Flow from Depth and Color Images",
+    "authors": ["Antoine Letouzey", "Benjamin Petit", "Edmond Boyer"],
+    "conf": "BMVC - British Machine Vision Conference",
+    "year": 2011,
+    "pdf": "https://inria.hal.science/inria-00616353/file/main.pdf",
+    "img": "imgs/papers/bmvc.png"
+  },
+  {
+    "title": "Flot de surface à partir d'indices visuels",
+    "authors": ["Antoine Letouzey", "Benjamin Petit", "Edmond Boyer"],
+    "conf": "ORASIS - Congrès des jeunes chercheurs en vision par ordinateur",
+    "year": 2011,
+    "pdf": "https://inria.hal.science/inria-00595247/file/orasis_id_11.pdf",
+    "img": "imgs/papers/orasis.png"
+  },
+  {
+    "title": "Tilt-less 3-D electron imaging and reconstruction of complex curvilinear structures",
+    "authors": [
+      "Emad Oveisi",
+      "Antoine Letouzey",
+      "Duncan TL Alexander",
+      "Quentin Jeangros",
+      "Robin Schäublin",
+      "Guillaume Lucas",
+      "Pascal Fua",
+      "Cécile Hébert"
+    ],
+    "conf": "Nature - Scientific reports",
+    "year": 2017,
+    "pdf": "https://www.nature.com/articles/s41598-017-07537-6.pdf",
+    "img": "imgs/papers/nature.png"
+  },
+  {
+    "title": "Stereo-vision three-dimensional reconstruction of curvilinear structures imaged with a TEM",
+    "authors": [
+      "Emad Oveisi",
+      "Antoine Letouzey",
+      "Sandro De Zanet",
+      "Guillaume Lucas",
+      "Marco Cantoni",
+      "Pascal Fua",
+      "Cecile Hebert"
+    ],
+    "conf": "Ultramicroscopy",
+    "year": 2018,
+    "pdf": "https://www.sciencedirect.com/science/article/am/pii/S0304399117300670",
+    "img": "imgs/papers/ultramicroscopy.png"
+  },
+  {
+    "title": "Instruments Localisation and Identification for Laparoscopic Surgeries",
+    "authors": [
+      "Antoine Letouzey",
+      "Marion Decrouez",
+      "Anthony Agustinos",
+      "Sandrine Voros"
+    ],
+    "conf": "MICAI Workshop",
+    "year": 2016,
+    "pdf": "http://camma.u-strasbg.fr/m2cai2016/reports/Letouzey-Tool.pdf",
+    "img": "imgs/papers/miccai.png"
+  },
+  {
+    "title": "Three-dimensional electron imaging and reconstruction of dislocations from a single acquisition",
+    "authors": [
+      "Emad Oveisi",
+      "Antoine Letouzey",
+      "Pascal Fua",
+      "Cecile Hebert"
+    ],
+    "conf": "Microscopy Conference",
+    "year": 2017,
+    "pdf": "https://infoscience.epfl.ch/record/230271?ln=en",
+    "img": "imgs/papers/epfl.png"
+  },
+  {
+    "title": "Three-dimensional electron imaging of dislocations from a single sample tilt",
+    "authors": [
+      "Emad Oveisi",
+      "Antoine Letouzey",
+      "Pascal Fua",
+      "Cecile Hebert"
+    ],
+    "conf": "European Microscopy Congress",
+    "year": 2016,
+    "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527808465.EMC2016.6677",
+    "img": "imgs/papers/microscopy.png"
+  }
+]

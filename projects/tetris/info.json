@@ -1,0 +1,6 @@
+{
+  "name": "Tetris",
+  "description": "This is a Tetris-like game ; I waited at least one year before starting this project, I was scared by the difficulty and eventually I was almost disappointed to make it work easily... So as usual the game include online ranking using high-score, multiple difficulty levels and the signature aweful UI. ",
+  "tags": ["PC", "C++"],
+  "repo": ""
+}

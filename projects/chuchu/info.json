@@ -1,0 +1,6 @@
+{
+  "name": "Chu-Chu Rocket",
+  "description": "This project is another remake. Chu-Chu Rocket is the first online multiplayer game not running on a PC, it was a Dreamcast game. I made my best to fit the original gameplay and I think it's not so bad. So for those who never played this game, it's a puzzle game where you have to guide a group of mice (Chu) to the rocket without being eaten by the cats (Kapu). To do so you have some arrows that you can put on the ground to make the mice and cats change their direction. The game also includes a level editor so you can design and share your own levels. ",
+  "tags": ["PC", "C"],
+  "repo": ""
+}

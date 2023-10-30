@@ -1,0 +1,6 @@
+{
+  "name": "Robot",
+  "description": "This is a university project for the Unix & System class of my B.Sc. The subject was to study multi-threading (parallel threads and processes), pipes, shared memory... The goal of this software is to drop robot on a ground and make them fight each-other. The UI contains a SDL display representing the world in realtime and a Ncurse shell to interact with it.",
+  "tags": ["PC", "C"],
+  "repo": ""
+}

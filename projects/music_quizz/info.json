@@ -1,0 +1,6 @@
+{
+  "name": "Music Quizz",
+  "description": "Minimalist music quizz app that loads your local music and test your knowledge. It randomly selects a song and provides you with 4 options to pick from.",
+  "tags": ["PC", "C++"],
+  "repo": ""
+}

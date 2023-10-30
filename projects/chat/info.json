@@ -1,0 +1,6 @@
+{
+  "name": "Chat",
+  "description": "This is another software I made to practice before an exam (GUI / C++). It's only a couple of softwares (server and client) for multi-user chat. There are also some specific commands users can send to the server to obtain some informations.",
+  "tags": ["PC", "C++", "Qt"],
+  "repo": ""
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Yet another pong",
+  "description": "My very first step in the wonderful world of the PSP underground. It's also my first game made using the LUA programming language. So, as every time I discover a new language, my first game is a basic two-player pong.",
+  "tags": ["PSP", "Lua"],
+  "repo": ""
+}
