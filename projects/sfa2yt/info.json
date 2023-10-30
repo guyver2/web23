@@ -1,0 +1,6 @@
+{
+  "name": "Street Fighter YT",
+  "description": "This application converts two video streams into players' input for the game Street Fighter 2. Events and motion on the videos trigger button press for their respective players.",
+  "tags": ["PYTHON"],
+  "repo": "https://github.com/guyver2/SFA2YT"
+}

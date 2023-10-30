@@ -1,0 +1,6 @@
+{
+  "name": "Stories",
+  "description": "Website that generates stories for kids, based on OpenAI's GPT-3.5 and DALL-E. The user provides a simple plot and a short description of the cover image and the application generates everything automatically. This is very handy to generate stories with my daughter and her frinds as characters and based on what she did during the day.",
+  "tags": ["TS", "WEB"],
+  "repo": "https://github.com/guyver2/stories"
+}

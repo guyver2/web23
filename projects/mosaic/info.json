@@ -1,0 +1,6 @@
+{
+  "name": "Mosaic generator",
+  "description": "This software can be used to create a mosaic of an image using a set of miniatures images coming from your image library. There are a lot of parameters that can be modified by the user, such as color space, size of the tiles, cheating degree, redundancy control and others.",
+  "tags": ["PC", "C++"],
+  "repo": ""
+}

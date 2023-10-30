@@ -1,0 +1,6 @@
+{
+  "name": "Pong online",
+  "description": "I made this game only to practice before a C exam. Its first version was a 2-gamers offline pong and some time after I made this version that allows 2 player to fight over the internet.",
+  "tags": ["PC", "C"],
+  "repo": ""
+}

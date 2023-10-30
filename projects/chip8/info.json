@@ -1,0 +1,7 @@
+{
+  "name": "Chip8 Emulator",
+  "description": "This is a small project I was very interested to try for a long time without actually commiting to it. I started this project by following the official documentation of this fake processor and developped a first verison in python. I liked that project so much that I did it again in C++ a few months later.",
+  "tags": ["PC", "C++", "Python"],
+  "large": true,
+  "repo": "https://github.com/guyver2/chip8pp"
+}

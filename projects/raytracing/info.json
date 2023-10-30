@@ -1,0 +1,6 @@
+{
+  "name": "Ray Tracing",
+  "description": "Ray tracing implementation in C++. The programm supports various geometrical primitive, soft shadows, mirrors, light sources. This implementation loads a scene description from a JSON file. Computation is heavilly paralelized with OpenMP and various parameters can be changed to tweak the precision (number of ray bounces, depth of the simulation, ...).",
+  "tags": ["C++", "PC"],
+  "repo": "https://github.com/guyver2/RayTracer"
+}

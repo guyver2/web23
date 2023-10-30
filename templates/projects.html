@@ -1,0 +1,28 @@
+{% extends '_base.html' %}
+{% block title %}Projects{% endblock %}
+{% block body %}
+
+{% include 'partials/_title.html' %}
+
+<div class="grid w100">
+  {% for project in projects %}
+    {% include 'partials/_project.html' %}
+  {% endfor %}
+</div>
+{% endblock %}
+
+{% block footer_js %}
+<script lang="js">
+
+    function close_all() {
+      {% for project in projects %}
+        const card_{{ project.id }} = document.getElementById('c_{{project.id}}');
+        const p_{{ project.id }} = document.getElementById('p_{{project.id}}');
+        card_{{ project.id }}.style.width = "";
+        p_{{ project.id }}.style.width = "";
+      {% endfor %}
+    }
+
+
+</script>
+{% endblock %}

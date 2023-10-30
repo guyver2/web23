@@ -1,0 +1,6 @@
+{
+  "name": "Ikaruga",
+  "description": "This game is inspired by the wonderful Ikaruga on Dreamcast. It's a side-scrolling shoot'em up where you control a plane that can change color. The idea is that you can only shoot (and be shot by) the enemies of the opposite color. Being hit by bullets from the same color as yours allows your plane to regain health. The game include 3 different planes, 4 different ennemies (plus a final boss), mouse or keyboard control and online high-score system.",
+  "tags": ["PC", "C"],
+  "repo": ""
+}

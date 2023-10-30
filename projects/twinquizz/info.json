@@ -1,0 +1,6 @@
+{
+  "name": "Twin Quizz",
+  "description": "Online Quizz tho know if you can tell my twin and myself appart. I made a first version of this quizz back in 2010. This one is based on sveltekit. It also shows a scoreboard.",
+  "tags": ["TS", "WEB"],
+  "repo": "https://github.com/guyver2/twinQuizz23"
+}

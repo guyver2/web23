@@ -1,0 +1,7 @@
+{
+  "name": "Video Stream",
+  "description": "Video Steaming application from one PSP to another using the Chotto Shot camera. Can reach the amazing framerate of 5fps on 320x240 :)",
+  "tags": ["PSP", "C"],
+  "large": true,
+  "repo": ""
+}

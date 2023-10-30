@@ -1,0 +1,6 @@
+{
+  "name": "Masks",
+  "description": "As far as I know it's the world first homebrew that use the PSP camera. The goal of this homebrew is to film yourself using the camera and add some masks above the camera stream. Ok it's very basic and the Go!Edit software already do it in a better way but anyway. I made it to get familiar with the camera API.",
+  "tags": ["PSP", "C"],
+  "repo": ""
+}

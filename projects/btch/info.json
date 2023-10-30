@@ -1,0 +1,7 @@
+{
+  "name": "BattleChess",
+  "description": "On a regular afternoon break at CVLab, a discussion was about to wake us from our boredom.\n\"Chess, to brainy. BattleShip, lack some action... But wait, what if we mixed both ?\"\nBattleChess was born. Mixing rules from both games to make a new exciting one.\nThis is a 2 player online game that provides each player with a limited view of the board. Anything further away than one square from your pieces is hidden by a fog of war.",
+  "tags": ["PC", "PYTHON", "Web"],
+  "large": true,
+  "repo": "https://github.com/guyver2/battlechess"
+}
