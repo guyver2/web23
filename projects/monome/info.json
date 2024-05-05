@@ -2,5 +2,5 @@
   "name": "Monome",
   "description": "A really simple sound-box that allows you to design very quickly basic musical patterns.",
   "tags": ["PSP", "C++"],
-  "repo": ""
+  "repo": "https://github.com/guyver2/Monome"
 }

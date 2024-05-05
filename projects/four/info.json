@@ -2,5 +2,5 @@
   "name": "Four in a row",
   "description": "This game is my second homebrew for the Sony PSP. The AI uses Alpha-Beta prunning and should be able to beat novice users and provide a certain challenge for others.",
   "tags": ["PSP", "Lua"],
-  "repo": ""
+  "repo": "https://github.com/guyver2/PSP_connect_4"
 }

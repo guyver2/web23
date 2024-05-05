@@ -3,5 +3,5 @@
   "description": "It's only the best game I ever made ! It's in the same time my favorite one and the most successful one (I found at least 50 website speaking of it all around the world). This game is one of the \"Top Homebrews\" of the french PspGen website and I'm quite proud of this. Initially written in Lua, it was converted to C for efficiency reasons.",
   "tags": ["PSP", "C", "Lua"],
   "large": true,
-  "repo": ""
+  "repo": "https://github.com/guyver2/wiof"
 }
